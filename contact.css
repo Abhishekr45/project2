@@ -1,0 +1,293 @@
+.main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* margin-top: 50px;
+     */
+    margin-top: 40px;
+    border-bottom: 2px solid rgb(209, 205, 205);
+}
+
+.head2 {
+    margin: auto;
+}
+
+.main1 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+}
+
+/* .head4{
+    gap:50px ;
+} */
+
+nav ul li {
+    display: inline;
+    margin: auto;
+    padding: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav ul li a:hover {
+    color: orangered;
+}
+
+.first {
+    color: orangered;
+}
+
+.btn1 {
+    /* padding: 8px; */
+    color: white;
+    border-radius: 4px;
+    border: 2px solid orangered;
+    background-color: orangered;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.count{
+    width: 35%;
+    margin: auto;
+}
+.Contact{
+    background-image: url("https://demo.creativethemes.com/blocksy/tasty/wp-content/uploads/2021/04/hero-doodles-new.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    margin-top: 10px;
+    background-color: rgb(207, 191, 186);
+
+}
+.heading{
+    text-align: center;
+    font-size:40px ;
+    position: relative;
+    top: 100px;
+    font-family:  'Poppins', sans-serif;
+   
+}
+.para1{
+    text-align: center;
+    /* font-size:40px ; */
+    position: relative;
+    top: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* line-height: 3px; */
+}
+.para2{
+    text-align: center;
+    /* font-size:40px ; */
+    position: relative;
+    top: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.para3 {
+    text-align: center;
+    /* font-size:40px ; */
+    position: relative;
+    top: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.para3 a{
+    text-decoration: none;
+    color: orangered;
+}
+.main3{
+    width: 90%;
+    margin: auto;
+    
+ }
+ .main4{
+    width: 90%;
+    margin: auto;
+
+ }
+ .main5{
+    width: 90%;
+    margin: auto;
+ }
+ .address{
+    display: flex;
+    gap: 32px;
+    margin-top: 43px;
+ }
+ .mail{
+    width: 35%;
+    
+ }
+ .mail i{
+ color: orangered;
+    font-size: 40px;
+
+}.count1{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+ .north{
+    border-radius: 3px;
+display: flex;
+justify-content: center;
+align-items: center;
+    height: 300px;
+    box-shadow: 5px 5px 5px 5px #f6f2f2;
+ }
+.form{
+    height: 60px;
+    width: 450px;
+    font-size: 15px;
+    padding: 10px;
+}
+.formed{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  
+}
+.formed1{
+   
+    margin-bottom: 20px;
+    
+}
+.formed2{
+    margin-bottom: 20px;
+}
+.texts{
+    padding:10px;
+    font-size: 20px;
+}
+.container1{
+display: flex;
+
+}
+.main4{
+    width: 80%;
+    margin: auto;
+}
+.dolor{
+    margin-top: 10rem;
+}
+.dolor h2{
+    font-family:  'Poppins', sans-serif;
+    font-size: 24px;
+}
+.dolor p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dolor1{
+    border-radius: 4px;
+    width: 500px;
+    padding: 55px;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    box-shadow: 5px 5px 5px 5px #f6f2f2;
+}
+.headind{
+    font-family:  'Poppins', sans-serif;
+    font-size: 34px;
+}
+.dolor1 input{
+    margin-bottom: 23px;
+font-size: 15px;
+height: 30px;
+width: 500px;
+padding: 10px;
+}
+.btn{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: orangered;
+    border-color: orangered;
+}
+#comment{
+height: 130px;
+width: 500px;
+
+border-radius: 5px solid rgb(209, 204, 204);
+}
+.footer{
+    background-color: #0c0f12;
+    height: 470px;
+ }
+ .NOW{
+    position: relative;
+    top: 30PX;
+}
+ .contain{
+    width: 90%;
+    margin: auto;
+ }
+ .cooks h4{
+    color: white;
+ }
+ .contain1{
+    width: 243px;
+    display: flex;
+    gap: 5px;
+ }
+ .contain1 img{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+ }
+ .contain1 h4{
+    color: white;
+    font-size: 12px;
+ }
+ .cooker{
+    display: flex;
+    gap: 50px;
+    margin-top: 63PX;
+ }
+ .header{
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.927);
+ }
+ .section{
+    display: flex;
+    gap: 50px;
+ 
+ } 
+ .pecipes{
+    width: 20%;
+    /* border-right: 0.5px solid #687279; */
+ }
+ .pecipes h2{
+ color:#E9EBEC;
+ line-height: 10px;
+ }
+ .pecipes a{
+    /* line-height: 20px; */
+    line-height:30PX;
+    color: #687279;
+    }
+ .pecipes p{
+       /* line-height: 20px; */
+       line-height:23PX;
+       color: #687279;
+  }
+ .pecipes img{
+      margin-top: 20px;
+  }
+  .word{
+    width: 90%;
+    margin: auto;
+  }
+  .word p{
+    color:  #687279;;
+  }
+  .word a{
+    text-decoration: none;
+    color: orangered;
+  }
+ 
+    
+ 

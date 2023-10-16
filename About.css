@@ -1,0 +1,597 @@
+.main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* margin-top: 50px;
+     */
+    margin-top: 40px;
+    border-bottom: 2px solid rgb(209, 205, 205);
+}
+
+.head2 {
+    margin: auto;
+}
+
+.main1 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+}
+
+/* .head4{
+    gap:50px ;
+} */
+
+nav ul li {
+    display: inline;
+    margin: auto;
+    padding: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav ul li a:hover {
+    color: orangered;
+}
+
+.first {
+    color: orangered;
+}
+
+.btn1 {
+    margin-top: 9px;
+    /* padding: 8px; */
+    color: white;
+    border-radius: 4px;
+    border: 2px solid orangered;
+    background-color: orangered;
+}
+
+.Contact {
+    background-image: url("https://demo.creativethemes.com/blocksy/tasty/wp-content/uploads/2021/04/hero-doodles-new.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    margin-top: 10px;
+    background-color: rgb(207, 191, 186);
+
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.para1 {
+    text-align: center;
+    /* font-size:40px ; */
+    position: relative;
+    top: 100px;
+    line-height: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.para2 {
+    text-align: center;
+    /* font-size:40px ; */
+    position: relative;
+    top: 100px;
+}
+
+.para3 {
+    text-align: center;
+    /* font-size:40px ; */
+    position: relative;
+    top: 100px;
+}
+
+.para3 a {
+    text-decoration: none;
+    color: orangered;
+}
+
+.author {
+    width: 90%;
+    margin: auto;
+}
+
+.story {
+    display: flex;
+    margin-top: 7rem;
+}
+
+@media only screen and (max-width:768px) {
+    .story1 {
+        flex: auto 0 0;
+        width: 100%;
+
+    }
+
+    .story2 {
+
+        margin-left: -10rem;
+        flex: auto;
+        width: 100%;
+
+    }
+}
+
+@media only screen and (max-width:768px) {}
+
+@media only screen and (max-width:768px) {
+    .story3 {
+        flex: auto 0 0;
+        width: 100%
+    }
+
+    .story4 {
+        flex: auto 0 0;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .story {
+        display: block;
+    }
+}
+
+@media only screen and(max-width:768px) {
+    .story4 h1 {
+        font-size: 15px;
+        line-height: 35px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.head {
+    color: orangered;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.story1 {
+    width: 70%;
+}
+
+.story1 h1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width:768px) {
+
+    .story1 h1 {
+
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.story1 img {
+    margin-top: 33px;
+}
+
+.story2 img {
+    margin-left: 100px;
+}
+
+.story3 {
+    width: 70%;
+
+}
+
+.story3 img {
+    border-radius: 7px;
+}
+
+.text {
+    margin-top: 40px;
+    color: #687279;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.para5 {
+    margin-top: 24px;
+    color: #687279;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* /* .story4 i{
+    margin-top: 33px;
+} */
+.story4 {
+    margin-left: 10px;
+}
+
+.story4 h1 {
+    font-size: 40px;
+    line-height: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    margin-top: 35px;
+    /* height: 50px;
+    width: 160px; */
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.profile {
+    background-image: url("https://demo.creativethemes.com/blocksy/tasty/wp-content/uploads/2021/04/hero-doodles-new.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.chefs1 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.chefs2 {
+    font-size: 14px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.profiles {
+    display: flex;
+    gap: 10rem;
+
+    /* margin: 20px; */
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width:768px) {
+
+    .chef1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chef1 img {
+        height: 500px;
+        width: 500px;
+
+        border-radius: 100%;
+    }
+
+    .profiles {
+        display: block;
+        gap: 2rem;
+        margin-left: 3rem;
+        margin-top: 5rem;
+    }
+}
+
+.chef1 img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.chef1 h5 {
+    margin-left: 5rem;
+    line-height: 5px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.chef1 p {
+    line-height: 8px;
+    margin-left: 6rem;
+    color: orangered;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    color: black;
+    margin-left: 4rem;
+    font-size: 30px;
+}
+
+.logo a {
+    color: orangered;
+}
+
+
+.golden {
+    background-image: url("https://demo.creativethemes.com/blocksy/tasty/wp-content/uploads/2021/04/grandma-bg@2x.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 150px;
+    border-radius: 23px;
+    display: flex;
+    background-color: #000000;
+}
+
+.golden1 {
+    padding: 84px;
+}
+
+.golden1 h1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.golden1 p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.buttons {
+    margin-top: 35px;
+    height: 50px;
+    width: 160px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+    margin-top: 190px;
+    margin-left: 250px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media only screen and (max-width:768px) {
+    .buttons {
+        /* margin-top: 35px; */
+        height: 50px;
+        width: 160px;
+        border-radius: 10px;
+        color: white;
+        background-color: orangered;
+        border-color: orangered;
+        margin-top: 190px;
+        margin-left: 10px !important;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+
+.heading2 {
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.heading2 h1 {
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading2 p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card {
+    display: flex;
+    gap: 3px;
+
+}
+
+.card1 {
+    width: 30%;
+    box-shadow: 5px 5px 5px 5px #f6f2f2;
+    padding: 40px;
+}
+
+.card1 img {
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.card1 h5 {
+    margin-left: 110px;
+}
+
+.card1 p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.photo {
+    background-image: url("https://demo.creativethemes.com/blocksy/tasty/wp-content/uploads/2021/04/hero-doodles-new.svg");
+    height: 400px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 70%;
+    height: 380px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px 5px #f6f2f2;
+    margin: auto;
+    margin-top: 6rem;
+
+}
+
+.box1 {
+    text-align: center;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 33px;
+
+}
+
+.box1 h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.box1 p {
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box input {
+    margin-top: 30px;
+    font-size: 20px;
+    height: 35px;
+    width: 400px;
+    border-radius: 8px;
+    border-color: rgb(236, 228, 218);
+    color: rgb(236, 228, 218);
+    /* height: 160px; */
+}
+
+.button2 {
+    /* font-size: 20px; */
+    height: 42px;
+    width: 125px;
+    border-radius: 6px;
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.footer {
+    background-color: #0c0f12;
+    height: 430px;
+}
+
+.contain {
+    width: 90%;
+    margin: auto;
+}
+
+.cooks h4 {
+    color: white;
+}
+
+.contain1 {
+    width: 243px;
+    display: flex;
+    gap: 5px;
+}
+
+.contain1 img {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+.contain1 h4 {
+    color: white;
+    font-size: 12px;
+}
+
+.cooker {
+    display: flex;
+    gap: 50px;
+}
+
+.header {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.927);
+}
+
+.section {
+    display: flex;
+    gap: 50px;
+
+}
+
+.pecipes {
+    width: 20%;
+    /* border-right: 0.5px solid #687279; */
+}
+
+.pecipes h2 {
+    color: #E9EBEC;
+    line-height: 10px;
+}
+
+.pecipes a {
+    /* line-height: 20px; */
+    line-height: 30PX;
+    color: #687279;
+}
+
+.pecipes p {
+    /* line-height: 20px; */
+    line-height: 23PX;
+    color: #687279;
+}
+
+.pecipes img {
+    margin-top: 20px;
+}
+
+.word {
+    width: 90%;
+    margin: auto;
+}
+
+.word p {
+    color: #687279;
+    ;
+}
+
+.word a {
+    text-decoration: none;
+    color: orangered;
+}
+
+@media only screen and (max-width:768px) {
+    .card1 {
+        width: 100%;
+        box-shadow: 5px 5px 5px 5px #f6f2f2;
+        padding: 40px;
+    }
+
+    .card {
+        display: block;
+    }
+
+    .card1 img {
+        margin-left: 45%;
+    }
+    .card h5{
+        margin-left: 45%;
+    }
+}
+@media only screen and (max-width:768px){
+    .box {
+        width: 70%;
+        height: 280px;
+        background-color: #ffffff;
+        box-shadow: 5px 5px 5px 5px #f6f2f2;
+        margin: auto;
+        margin-top: 6rem;
+    
+    }
+}
+/* @media only screen and (max-width:768px){
+
+    .cooker {
+        display: grid;
+       
+        grid-template-columns: 1fr 1fr;  
+    }
+    .section{
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr;  
+    }
+} */
